@@ -1,6 +1,6 @@
 # Exploratory Data Analysis (EDA) for Marvel vs DC
 
-# Importing necessary libraries
+### Importing necessary libraries
 
 import pandas as pd
 import numpy as np
@@ -9,7 +9,7 @@ import seaborn as sns
 
 # Load the dataset
 
-data = pd.read_csv('src/data/Marvel_DC.csv')
+data = pd.read_csv('CSV/Marvel_DC.csv')
 
 # Data Cleaning and Preprocessing
 
