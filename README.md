@@ -7,11 +7,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+###
+
 ### Load the dataset
 
 data = pd.read_csv('CSV/Marvel_DC.csv')
 
-### Data Cleaning and Preprocessing
+### Data Cleaning and
 
 1. Normalization of Year
 
@@ -62,13 +64,13 @@ plt.show()
 
 ### Marvel vs DC IMDb Ratings Comparison
 
-marvel_movies = data[data['Franchise'] == 'Marvel']
-dc_movies = data[data['Franchise'] == 'DC']
+marvel_films = data[data['Franchise'] == 'Marvel']
+dc_films = data[data['Franchise'] == 'DC']
 
 ### Average IMDb Score
 
-marvel_avg_score = marvel_movies['IMDB_Score'].mean()
-dc_avg_score = dc_movies['IMDB_Score'].mean()
+marvel_avg_score = marvel_films['IMDB_Score'].mean()
+dc_avg_score = dc_films['IMDB_Score'].mean()
 
 print(f"Marvel Average IMDb Score: {marvel_avg_score}")
 print(f"DC Average IMDb Score: {dc_avg_score}")
