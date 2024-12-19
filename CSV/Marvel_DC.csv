@@ -1,6 +1,6 @@
-ID,film,Year,Genre,RunTime,Description,IMDB_Score,Value_IMDB
+ID,Film,Year,Genre,RunTime,Description,IMDB_Score,Value_IMDB
 0,Eternals,-2021,"Action,Adventure,Drama",156 min,"The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",6.3,Bad
-1,Loki,(2021–2023),"Action,Adventure,Fantasy",600,"A new Marvel chapter with Loki at its center.",8.2,Good
+1,Loki,(2021–2023),"Action,Adventure,Fantasy",600 min,"A new Marvel chapter with Loki at its center.",8.2,Good
 2,The Falcon and the Winter Soldier,-2021,"Action,Adventure,Drama",50 min,"Following the events of 'Avengers: Endgame,' Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities -- and their patience.",7.5,Good
 3,WandaVision,(2021),"Action,Comedy,Drama",350 min,"Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.",8.1,Good
 4,Spider-Man: No Way Home,-2021,"Action,Adventure,Sci-Fi",158 min,"A continuation of Spider-Man: Far From Home.",8.2,Good
@@ -13,7 +13,7 @@ ID,film,Year,Genre,RunTime,Description,IMDB_Score,Value_IMDB
 11,Avengers: Infinity War,-2018,"Action,Adventure,Sci-Fi",149 min,The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.,8.4,Good
 12,Black Panther,-2018,"Action,Adventure,Sci-Fi",134 min,"T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",7.3,Good
 13,Captain Marvel,-2019,"Action,Adventure,Sci-Fi",123 min,Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.,6.9,Bad
-14,Shang-Chi and the Legend of the Ten Rings,-2021,"Action,Adventure,Fantasy",118 min0,"The film, based on Marvel Comics, will focus on Shang-Chi; 'The Master of Kung-Fu'.",7.4,Good
+14,Shang-Chi and the Legend of the Ten Rings,-2021,"Action,Adventure,Fantasy",118 min,"The film, based on Marvel Comics, will focus on Shang-Chi; 'The Master of Kung-Fu'.",7.4,Good
 15,Spider-Man: Homecoming,-2017,"Action,Adventure,Sci-Fi",133 min,"Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",7.4,Good
 16,Avengers: Age of Ultron,-2015,"Action,Adventure,Sci-Fi",141 min,"When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",7.3,Good
 17,Captain America: The First Avenger,-2011,"Action,Adventure,Sci-Fi",124 min,"Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a ""Super-Soldier serum"". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",6.9,Bad
