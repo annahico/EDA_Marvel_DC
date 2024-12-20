@@ -1,7 +1,7 @@
 ID,Film,Year,Genre,RunTime,Description,IMDB_Score,Value_IMDB
 0,Eternals,-2021,"Action,Adventure,Drama",156 min,"The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",6.3,Bad
 1,Loki,(2021–2023),"Action,Adventure,Fantasy",600 min,"A new Marvel chapter with Loki at its center.",8.2,Good
-2,The Falcon and the Winter Soldier,-2021,"Action,Adventure,Drama",50 min,"Following the events of 'Avengers: Endgame,' Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities -- and their patience.",7.5,Good
+2,The Falcon and the Winter Soldier,-2021,"Action,Adventure,Drama",300 min,"Following the events of 'Avengers: Endgame,' Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities -- and their patience.",7.5,Good
 3,WandaVision,(2021),"Action,Comedy,Drama",350 min,"Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.",8.1,Good
 4,Spider-Man: No Way Home,-2021,"Action,Adventure,Sci-Fi",158 min,"A continuation of Spider-Man: Far From Home.",8.2,Good
 5,Black Widow,-2021,"Action,Adventure,Sci-Fi",134 min,"A film about Natasha Romanoff in her quests between the films Civil War and Infinity War.",6.6,Bad
@@ -219,7 +219,6 @@ ID,Film,Year,Genre,RunTime,Description,IMDB_Score,Value_IMDB
 497,LEGO DC Comics Super Heroes: Aquaman - Rage of Atlantis,(2018 Video),"Animation,Action,Adventure",77 min,"Aquaman must battle foes in the air, on land and in the depths of the Seven Seas, along with some help from The Justice League, to save the day .",5.7,Bad
 498,Challenge of the Superfriends,-1978,"Animation,Action,Family",30 min,"The Justice League of America battles the plots of the supervillian team, the Legion of Doom.",7.7,Good
 499,The Plastic Man Comedy/Adventure Show,(1979– ),"Animation,Adventure,Family",120 min,The adventures of the original stretchable superhero and various other characters.,6.4,Bad
-500,Smallville Season 3 Promo,(2003 TV Short),"Short,Adventure,Drama",4 min,"A young Clark Kent struggles to find his place in the world as he learns to harness his alien powers for good and deals with the typical troubles of teenage life in Smallville, Kansas. It ...                See full summary »",9.1,Very Good
 501,Superman Returns,(2006 Video Game),"Action,Adventure,Fantasy",0,"The Man of Steel returns from the extinct planet Kyrpton to his home Metropolis only to find himself protecting it once more from foes such as Metallo, Mongul and Bizarro.",5.5,Bad
 502,Swamp Thing,(II) (1990– ),"Animation,Action,Adventure",30 min,"Scientist Alec Holland invents a growth substance that could end world hunger, but a plantation owner obsessed with immortality tries to steal it and causes an accident that turns Alec into a human-plant mutant, protector of the bayou.",6.3,Bad
 503,SuperFriends: The Legendary Super Powers Show,-1984,"Action,Animation",30 min,"Now with the addition of Firestorm, the Super Friends oppose the forces of evil, especially the evil New God, Darkseid.",7.4,Good
