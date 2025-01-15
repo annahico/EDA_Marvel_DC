@@ -1,110 +1,67 @@
-# Exploratory Data Analysis (EDA) for Marvel vs DC
+# Marvel vs DC: Exploratory Data Analysis (EDA)
 
-### Importing necessary libraries
+## Description
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+This project analyzes data from Marvel and DC franchises to identify patterns and perform key comparisons. The goal is to understand how various factors influence the success of their movies and series.
 
-###
+### Context
 
-### Load the dataset
+Marvel and DC are two of the largest franchises in the entertainment industry. This analysis seeks to answer questions such as:
 
-data = pd.read_csv('CSV/Marvel_DC.csv')
+- Which franchise has higher average ratings?
+- How do genres vary between Marvel and DC?
 
-### Data Cleaning and
+### Hypotheses
 
-1. Normalization of Year
+1. Marvel movies have a higher average IMDb rating than DC movies.
+2. DC produces more content featuring dark and gritty heroes.
+3. Marvel releases more movies per year than DC.
 
-Extracted the year using regular expressions and converted to numeric values
+## Installation
 
-data['Year'] = data['Year'].astype(str).str.extract(r'(\d{4})').astype(float)
-data['Year'] = data['Year'].fillna(data['Year'].median())
+To run this project locally, follow these steps:
 
-2. Transformation of RunTime
+1. Clone this repository:
 
-Extracted numeric values from the runtime column using regular expressions and converted to numeric values
+   ```bash
+   git clone <https://github.com/annahico/EDA_Marvel_DC>
+   ```
 
-data['RunTime'] = data['RunTime'].astype(str).str.extract(r'(\d+)').astype(float)
-data['RunTime'] = data['RunTime'].fillna(data['RunTime'].median())
+2. Install the necessary dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the notebook file:
+   ```bash
+   jupyter notebook Marvel_vs_Dc.ipynb
+   ```
 
-3. Handling Missing Values
+## Notebook Content
 
-Replaced missing values in the Genre column with the string 'Unknown'
+The notebook is divided into the following sections:
 
-data['Genre'] = data['Genre'].fillna('Unknown')
+1. Introduction: Overview of the analysis purpose.
 
-###Exploratory Analysis
+2. Exploratory Analysis:
 
-### Univariate Analysis
+- Data visualization.
 
-### Distribution of IMDb Scores (Histogram)
+- Comparison of average ratings between Marvel and DC.
 
-plt.figure(figsize=(10, 6))
-sns.histplot(data['IMDB_Score'], bins=20, kde=True)
-plt.title('Distribution of IMDb Scores')
-plt.xlabel('IMDb Score')
-plt.ylabel('Frequency')
-plt.show()
+- Genre distribution.
 
-### Bivariate Analysis
+3. Results and Conclusions: Discussion of key findings.
 
-### Relationship Between Genres and IMDb Scores (Boxplot)
+## Results
 
-plt.figure(figsize=(12, 8))
-sns.boxplot(x='Genre', y='IMDB_Score', data=data)
-plt.title('IMDb Scores by Genre')
-plt.xlabel('Genre')
-plt.ylabel('IMDb Score')
-plt.xticks(rotation=90)
-plt.show()
+The analysis revealed that:
 
-### Results
+- Marvel tends to have a slightly higher average IMDb rating.
 
-### Marvel vs DC IMDb Ratings Comparison
+- DC focuses more on dark and gritty genres.
 
-marvel_films = data[data['Franchise'] == 'Marvel']
-dc_films = data[data['Franchise'] == 'DC']
+- Marvel consistently releases more content each year.
 
-### Average IMDb Score
+## Contribution
 
-marvel_avg_score = marvel_films['IMDB_Score'].mean()
-dc_avg_score = dc_films['IMDB_Score'].mean()
-
-print(f"Marvel Average IMDb Score: {marvel_avg_score}")
-print(f"DC Average IMDb Score: {dc_avg_score}")
-
-### Common Genres (Top 5)
-
-common_genres = data['Genre'].value_counts().head(5)
-print("Top 5 Common Genres:")
-print(common_genres)
-
-### Correlation between RunTime and IMDb Score
-
-runtime_corr = data[['RunTime', 'IMDB_Score']].corr()
-print("Correlation between RunTime and IMDb Score:")
-print(runtime_corr)
-
-### Tools Used
-
-### - pandas for data manipulation.
-
-### - numpy for numerical operations.
-
-### - matplotlib and seaborn for data visualization.
-
-### How to Run
-
-1. Clone the repository.
-
-2. Place the Marvel_DC.csv file in the src/data/ directory.
-
-3. Run the Jupyter Notebook containing the EDA code.
-
-### Future Work
-
-- Analyze additional variables such as budget and revenue to understand their impact on success.
-
-- Perform sentiment analysis on reviews to gain more insights.
+If you wish to contribute to this project, feel free to open an issue or submit a pull request.

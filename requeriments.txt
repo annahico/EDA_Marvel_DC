@@ -1,9 +1,14 @@
+bs4
+urllib
+re
+nltk
 pandas
 numpy
 matplotlib
 seaborn
 scipy
 jupyter
+sns
 
 
 python -m venv env
